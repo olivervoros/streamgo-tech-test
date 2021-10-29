@@ -17,4 +17,7 @@ Route::get('/', function () {
 
     return  ReportBuilder::getReport('example');
 
+    //return  ReportBuilder::getReport('session');
+
+    //return  ReportBuilder::getReport('nonexistantreportbuilder');
 });
